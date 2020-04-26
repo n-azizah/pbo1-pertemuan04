@@ -1,15 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int isiGelas = 0;
-        int penuh = 225;
+        String[] mataKuliah;
+        mataKuliah = new String[5];
 
-        System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        System.out.println("Isi Gelas Ketika Penuh :" + penuh + "ml");
-
-        for(isiGelas = 0 ; isiGelas <= penuh ; isiGelas++){
-            System.out.println("Sedang mengisi gelas..");
-            System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
-        }
-        System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "ml");
+        mataKuliah[0] = "Pemrograman Berbasik Objek 1";
+        mataKuliah[1] = "Visual 2";
+        mataKuliah[2] = "Rekaya Perangkat Lunak";
+        mataKuliah[3] = "Organisasi Komputer";
+        mataKuliah[4] = "Pemrograman Web 2";
     }
 }
